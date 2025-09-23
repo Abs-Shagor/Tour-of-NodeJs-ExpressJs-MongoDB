@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "price": 1200,
+    "color": "Black",
+    "description": "The iPhone 15 features a sleek design, powerful A17 Bionic chip, and advanced camera system. It offers excellent performance for gaming and multitasking. iOS ensures smooth software experience and timely updates. The OLED display provides vibrant colors and deep blacks. Face ID ensures secure authentication. Great for photography enthusiasts and professionals."
+  },
+  {
+    "id": 2,
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "price": 999,
+    "color": "White",
+    "description": "Galaxy S23 comes with a stunning AMOLED display and high refresh rate. Equipped with Snapdragon 8 Gen 2 processor, it handles heavy apps easily. The triple camera setup captures crisp photos in all conditions. Long-lasting battery supports fast charging. Samsung's One UI offers smooth navigation and customization. Ideal for multimedia and productivity."
+  },
+  {
+    "id": 3,
+    "brand": "Google",
+    "model": "Pixel 8",
+    "price": 899,
+    "color": "Blue",
+    "description": "Pixel 8 is Google's flagship with pure Android experience and fast updates. The camera excels in low-light photography and AI features. Google Tensor chip improves performance and efficiency. Smooth display and responsive touch make navigation easy. Great for photography, AI tools, and Android enthusiasts. Compact and lightweight design."
+  },
+  {
+    "id": 4,
+    "brand": "OnePlus",
+    "model": "OnePlus 12",
+    "price": 799,
+    "color": "Red",
+    "description": "OnePlus 12 offers fast performance with Snapdragon 8 Gen 2 chip. The AMOLED display provides vivid colors and smooth animations. OxygenOS enhances user experience with speed and customization. Fast charging gives hours of battery in minutes. Excellent for gaming and multitasking. Sleek, modern design with premium build quality."
+  },
+  {
+    "id": 5,
+    "brand": "Xiaomi",
+    "model": "Mi 14",
+    "price": 699,
+    "color": "Gray",
+    "description": "Mi 14 features a vibrant AMOLED display and solid performance with Snapdragon 7 Gen chip. Camera system supports high-resolution photos and night mode. MIUI offers customization and useful features. Long battery life with fast charging support. Affordable flagship experience. Great value for everyday use and multimedia."
+  },
+  {
+    "id": 6,
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "price": 1100,
+    "color": "Silver",
+    "description": "iPhone 14 combines sleek design with reliable performance. Dual-camera system ensures stunning photos. iOS offers smooth and secure experience. OLED screen provides excellent color accuracy. Lightweight and durable. Great for users who prefer Apple ecosystem."
+  },
+  {
+    "id": 7,
+    "brand": "Samsung",
+    "model": "Galaxy S22",
+    "price": 899,
+    "color": "Black",
+    "description": "Galaxy S22 has a premium build and dynamic AMOLED display. Snapdragon 8 Gen 1 ensures smooth performance. Triple camera setup captures detailed shots. Battery lasts a full day with fast charging. One UI is intuitive and feature-rich. Ideal for everyday users and content creators."
+  },
+  {
+    "id": 8,
+    "brand": "Google",
+    "model": "Pixel 7",
+    "price": 799,
+    "color": "White",
+    "description": "Pixel 7 features AI-powered camera and clean Android OS. Tensor chip delivers fast performance. Compact design is easy to hold. Smooth updates and security patches. Excellent for photography lovers and Android fans. Lightweight and modern."
+  },
+  {
+    "id": 9,
+    "brand": "OnePlus",
+    "model": "OnePlus 11",
+    "price": 749,
+    "color": "Green",
+    "description": "OnePlus 11 comes with fast Snapdragon 8+ Gen 1 chip. AMOLED display with high refresh rate. OxygenOS offers customization and smooth navigation. Long battery life with Warp Charge. Sleek and premium design. Perfect for gamers and multitaskers."
+  },
+  {
+    "id": 10,
+    "brand": "Xiaomi",
+    "model": "Mi 13",
+    "price": 649,
+    "color": "Blue",
+    "description": "Mi 13 offers great value with solid performance. AMOLED display with vibrant colors. Fast charging and long battery. MIUI features useful tools. High-resolution camera for everyday photography. Affordable yet feature-rich."
+  },
+  {
+    "id": 11,
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "price": 999,
+    "color": "Red",
+    "description": "iPhone 13 has a durable design with A15 Bionic chip. Dual-camera captures stunning photos. iOS ensures smooth experience. OLED display with great brightness. Compact and stylish. Excellent for Apple ecosystem users."
+  },
+  {
+    "id": 12,
+    "brand": "Samsung",
+    "model": "Galaxy Note 20",
+    "price": 950,
+    "color": "Bronze",
+    "description": "Galaxy Note 20 comes with S-Pen support and AMOLED display. Snapdragon 865+ ensures fast performance. Battery supports long hours. One UI enhances productivity. Ideal for professionals and note-takers. Premium design and features."
+  },
+  {
+    "id": 13,
+    "brand": "Google",
+    "model": "Pixel 6",
+    "price": 699,
+    "color": "Black",
+    "description": "Pixel 6 features Google Tensor chip and advanced camera system. Stock Android provides smooth experience. Compact and easy to use. AI features improve usability. Great for photography and Android enthusiasts. Reliable and fast."
+  },
+  {
+    "id": 14,
+    "brand": "OnePlus",
+    "model": "OnePlus 10",
+    "price": 699,
+    "color": "Silver",
+    "description": "OnePlus 10 offers high performance with Snapdragon 8 Gen chip. AMOLED display is bright and smooth. OxygenOS is fast and customizable. Fast charging and long battery. Ideal for gaming and media. Premium feel and sleek design."
+  },
+  {
+    "id": 15,
+    "brand": "Xiaomi",
+    "model": "Mi 12",
+    "price": 599,
+    "color": "White",
+    "description": "Mi 12 comes with strong performance and vibrant display. MIUI enhances usability. High-quality camera for photos and videos. Long-lasting battery. Affordable flagship experience. Good for daily use and entertainment."
+  },
+  {
+    "id": 16,
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "price": 850,
+    "color": "Blue",
+    "description": "iPhone 12 features A14 Bionic chip and dual-camera setup. OLED display delivers excellent visuals. iOS provides smooth and secure experience. Lightweight and stylish. Perfect for Apple fans and casual users. Durable and reliable."
+  },
+  {
+    "id": 17,
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "price": 799,
+    "color": "Gray",
+    "description": "Galaxy S21 has dynamic AMOLED display and fast Snapdragon 888. Triple camera for photography. One UI ensures smooth navigation. Long battery life with fast charging. Ideal for media consumption and multitasking. Sleek and premium design."
+  },
+  {
+    "id": 18,
+    "brand": "Google",
+    "model": "Pixel 5",
+    "price": 599,
+    "color": "Green",
+    "description": "Pixel 5 provides clean Android experience with fast updates. Compact design and lightweight. Camera performs well in low light. AI features enhance usability. Reliable battery life. Great for Android purists and photography enthusiasts."
+  },
+  {
+    "id": 19,
+    "brand": "OnePlus",
+    "model": "OnePlus 9",
+    "price": 649,
+    "color": "Blue",
+    "description": "OnePlus 9 offers smooth performance with Snapdragon 888. AMOLED display with high refresh rate. OxygenOS is fast and customizable. Battery lasts long with Warp Charge. Good for gaming and multitasking. Sleek and premium feel."
+  },
+  {
+    "id": 20,
+    "brand": "Xiaomi",
+    "model": "Mi 11",
+    "price": 549,
+    "color": "Black",
+    "description": "Mi 11 comes with Snapdragon 888 and AMOLED display. High-quality camera with multiple modes. MIUI provides extra features and customization. Long battery life with fast charging. Affordable flagship device. Great for everyday tasks and media."
+  }
+]
