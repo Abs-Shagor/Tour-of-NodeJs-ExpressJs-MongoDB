@@ -16,7 +16,7 @@ app.get('/phonesInfo', (req, res) => {
 })
 app.get('/phonesinfo/:id', (req, res) => {
     let id = req.params.id;
-    id = parseInt(id); // as the url is string, we aill get the id as string and have to convert it into integer.
+    id = parseInt(id); // as the url is string, we will get the id as string and have to convert it into integer.
     console.log(id);
     const phone = phones.find(phone => {
         return phone.id===id;
