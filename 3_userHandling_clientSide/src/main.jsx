@@ -7,14 +7,18 @@ import Root from './Components/Root';
 import { ToastContainer } from 'react-toastify';
 import AllUsers from './Components/AllUsers';
 import AddUser from './Components/AddUser';
-import DeletUser from './Components/DeletUser';
 import UpdateUser from './Components/UpdateUser';
+import UserDetails from './Components/UserDetails';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root></Root>,
     children: [
+      {
+        index: true,
+        element: <AllUsers></AllUsers>
+      },
       {
         path: '/users',
         element: <AllUsers></AllUsers>
@@ -24,12 +28,14 @@ const router = createBrowserRouter([
         element: <AddUser></AddUser>
       },
       {
-        path: '/deleteuser',
-        element: <DeletUser></DeletUser>
+        path: '/users/:id',
+        element: <UserDetails></UserDetails>,
+        loader: ({params}) => fetch(`http://localhost:3000/users/${params.id}`)
       },
       {
-        path: '/updateuser',
-        element: <UpdateUser></UpdateUser>
+        path: '/updateUser/:id',
+        element: <UpdateUser></UpdateUser>,
+        loader: ({params}) => fetch(`http://localhost:3000/users/${params.id}`)
       }
     ]
   }

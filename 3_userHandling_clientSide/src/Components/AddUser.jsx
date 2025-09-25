@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import React from 'react';
 
 const AddUser = () => {
@@ -6,10 +7,11 @@ const AddUser = () => {
         event.preventDefault();
         const form = event.target;
         const name = form.name.value;
-        const phone = form.phone.value;
         const email = form.email.value;
+        const phone = form.phone.value;
+        const address = form.address.value;
 
-        const newUser = {name, phone, email};
+        const newUser = {name, email, phone, address};
 
         fetch('http://localhost:3000/adduser', {
             method: 'POST',
@@ -20,7 +22,8 @@ const AddUser = () => {
         })
         .then(res => res.json())
         .then(data => {
-            console.log(data)
+            toast.success('User added Successfully!');
+            form.reset();
         });
     }
     return (
@@ -28,8 +31,9 @@ const AddUser = () => {
             <h1 className='text-[25px] text-center font-semibold '>Add New User</h1>
             <form onSubmit={handleSubmit} className='grid gap-3 w-[350px]' >
                 <input type="text" name="name" required placeholder='Enter Name' className='w-full border border-gray-500 p-1 rounded-lg ' />
-                <input type="text" name="phone" required placeholder='Phone Number' className='w-full border border-gray-500 p-1 rounded-lg '  />
                 <input type="email" name="email" required placeholder='Email' className='w-full border border-gray-500 p-1 rounded-lg ' />
+                <input type="text" name="phone" required placeholder='Phone Number' className='w-full border border-gray-500 p-1 rounded-lg '  />
+                <input type="text" name="address" required placeholder='Address' className='w-full border border-gray-500 p-1 rounded-lg ' />
                 <button className='btn btn-primary rounded-lg'>Submit</button>
             </form>
         </div>
